@@ -125,8 +125,12 @@
 /* Responsiveness */
 
 @media screen and (max-width: 650px) {
-    .ellipse-bottom, .ellipse-left, .ellipse-top {
+    .ellipse-bottom, .ellipse-left {
         width: 7em;
+    }
+    .ellipse-top {
+        width: 7em;
+        top: -30vh;
     }
 }
 
@@ -139,10 +143,6 @@
     
     .heading {
         font-size: 2em;
-        text-align: center;
-    }
-    .heading-2 {
-        text-align: center;
     }
     .sub-heading-1 {
         font-size: 1.5em;
@@ -163,5 +163,11 @@
    .bowl, .lady {
         width: 8em;
    }
+    .heading {
+        text-align: center;
+    }
+    .heading-2 {
+        text-align: center;
+    }
 
 }
