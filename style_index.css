@@ -1,0 +1,159 @@
+
+/* Sections */
+
+.home-top {
+    background-color: #FFF4F2;
+    position: relative;
+}
+
+.recipe-card {
+    background-color: #FFF4F2;
+    border-radius: 20px;
+    position: relative;
+    z-index: -1;
+    padding: 1.5em 2em;
+    max-width: 30em;
+    margin: 1em;
+}
+
+.tricks {
+    background-color: #FFF4F2;
+    position: relative;
+}
+
+.about {
+    background-color: #423f3f;
+    color: white;
+    justify-content: center;
+    padding: 10vh 8vh;
+}
+
+.box {
+    padding: 0 2em;
+    margin: auto 0 auto;
+}
+
+/* Text */
+
+.heading {
+    font-size:3em;
+    font-weight: 500;
+    max-width: 60%;
+    line-height: 1.2;
+}
+.heading-2 {
+    font-size:1.2em;
+    max-width: 60%;
+}
+
+.sub-heading-1 {
+    font-size: 2em;
+    font-weight: 500;
+    
+}
+
+.sub-heading-2 {
+    font-size: 0.8em;
+}
+
+.sub-heading-3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.content {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.underline {
+    border-bottom: 3px solid #99675E;
+    max-width: 20%;
+}
+
+
+/* Images */
+
+.lady {
+    max-width: 100%;
+    margin-top: 10vh
+}
+
+.ellipse-top {
+    position: absolute;
+    z-index: 0;
+    transform: rotate(90deg);
+    max-width: 8em;
+    right: 30%;
+    top: -25vh;
+}
+   
+.ellipse-left {
+    position: absolute;
+    z-index: 0;
+    top: 10vh;
+    left:0;
+}
+
+.ellipse-bottom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(180deg) translate(0, 50%);
+}
+   
+.pastry {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(50%, -50%);
+}
+
+.donut {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(50%, -50%);
+}
+
+.social-img {
+    width: 2em;
+    margin-right: 0.8em;
+}
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 430px) {
+    .ellipse-bottom, .ellipse-left, .ellipse-top, .pastry, .donut {
+        width: 5em;
+    }
+    
+    .heading {
+        font-size: 2em;
+        text-align: center;
+    }
+    .heading-2 {
+        text-align: center;
+    }
+    .sub-heading-1 {
+        font-size: 1.5em;
+    }
+
+    .sub-heading-3 {
+        font-size: 1em;
+    }
+
+    .content {
+        font-size: 0.8em;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+   .bowl, .lady {
+        width: 8em;
+   }
+
+}
