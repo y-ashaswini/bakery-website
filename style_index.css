@@ -124,7 +124,15 @@
 
 /* Responsiveness */
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 650px) {
+    .ellipse-bottom, .ellipse-left, .ellipse-top {
+        width: 7em;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
     .ellipse-bottom, .ellipse-left, .ellipse-top, .pastry, .donut {
         width: 5em;
     }
